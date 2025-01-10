@@ -1,2 +1,4 @@
-# Tip-Caculator
- 
+- Tip-Calculator
+- Give you total amount of bill
+- calculate total amount of tip 
+- calculate total amount plus tip per person
