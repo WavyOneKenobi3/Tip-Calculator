@@ -4,9 +4,13 @@ print("Welcome to the Tip Calculator")
 
 def billing():
     user_input = float(input("how much is the total bill amount? "))    # ask for user input for bill amount
+    
     tip_percentage = int(input("what percentage would you like to tip? 10, 12, 15, 20? "))              # what percentage of the tip to give? 10, 12, 15, 20
+    
     split_bill = (input("would you like to split bill? Yes or No: ")).lower()               #will the total bill be split? 
+    
     total_bill = float((tip_percentage * 100)/user_input) 
+    
     if split_bill == "yes":
         num_people = int(input("How many people? "))   #number of people
         sum = total_bill / num_people           #total tip per person
